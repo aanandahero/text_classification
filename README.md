@@ -17,7 +17,7 @@ We use **TF-IDF vectorization** to convert raw text into numerical features, and
   python text_classification.py
 
 
-**What the Script Does**
+## **What the Script Does**
 Loads the 20 Newsgroups dataset using Scikit-learn.
 
 Splits the data into training and testing sets.
@@ -33,11 +33,11 @@ Trains the model and evaluates accuracy.
 Prints a classification report with performance metrics.
 
 
-**Output Explanation**
+## **Output Explanation**
 Accuracy: 0.86
 This means 86% of the test data was classified correctly.
 
-**Classification Report**
+## **Classification Report**
 Precision: How many selected items were correct?
 
 Recall: How many correct items were selected?
@@ -46,7 +46,7 @@ F1-Score: Balance between precision and recall.
 
 Support: Number of test samples in that class.
 
-**Dataset Used**
+## **Dataset Used**
 We use the built-in 20 Newsgroups dataset from Scikit-learn:
 
 Contains 18,000+ newsgroup articles.
@@ -55,7 +55,7 @@ Spread across 20 categories like sci.space, rec.sport.hockey, comp.graphics, etc
 
 No need to download anything — it loads automatically.
 
-**Tools Used**
+## **Tools Used**
 Python
 
 Scikit-learn
